@@ -16,7 +16,7 @@ interface = wifi1.interface()
 
 all_wifi = Cell.all(interface)
 #print "SSID\t BSSID\t Channel\t Power\t"
-print "[+] scannig for networks .."
+print ("[+] scannig for networks ..") 
 bssid = []
 time.sleep(2)
 for wi in all_wifi:
